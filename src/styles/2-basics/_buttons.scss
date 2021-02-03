@@ -1,0 +1,21 @@
+.button {
+    background-color: $dark-blue2;
+    width: 120px;
+    height: 48px;
+    border-radius: 26.5px;
+    border: none;
+    outline: none;
+    @extend %flex-center-center;
+    @extend %transition-0-2s;
+
+    &:hover {
+      color: $white;
+      @extend %transition-0-2s;
+    }
+
+    &.active-button {
+      background-color: $red;
+      color: $dark-blue1;
+      @extend %transition-0-2s;
+    }
+}

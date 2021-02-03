@@ -1,0 +1,19 @@
+.app {
+    @include flex(flex, column, flex-start, center);
+
+    &__logo {
+        margin-top: 48px;
+    }
+
+    &__chooseMode {
+        margin-top: 55px;
+    }
+
+    &__timer {
+        margin-top: 45px;
+    }
+
+    &__settingsIcon {
+        margin-top: 63px;
+    }
+}

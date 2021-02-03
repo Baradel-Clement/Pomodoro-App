@@ -5,5 +5,9 @@
 @import "./1-helpers/placeholder";
 
 // 2 - BASICS
-
 @import "./2-basics/typography";
+@import "./2-basics/buttons";
+
+// 3 - LAYOUT
+@import "./3-layout/app-container";
+@import "./3-layout/choose-mode";

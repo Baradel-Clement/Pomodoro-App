@@ -1,0 +1,9 @@
+.app__chooseMode {
+  @extend %flex-between-center;
+  justify-content: space-around;
+  flex-flow: row;
+  width: 373px;
+  height: 63px;
+  background-color: $dark-blue2;
+  border-radius: 31.5px;
+}
