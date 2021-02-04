@@ -49,7 +49,8 @@ h4 {
 
 .body2 {
     font-size: 12px;
-    line-height: 14px;
+    line-height: 12px;
+    opacity: 0.4;
 }
 
 .button {
@@ -57,10 +58,10 @@ h4 {
     line-height: 14px;    
 }
 
-.dark-blue1 {
-    color: rgba(255,255,255, 0.3);
+.text-opacity03 {
+  color: rgba(255,255,255, 0.3);
 }
 
-.pointer {
-  cursor: pointer;
+.dark-blue2 {
+  color: $dark-blue2;
 }

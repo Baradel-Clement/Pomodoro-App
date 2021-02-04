@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 
-import Settings from 'src/components/Settings';
+import App from 'src/components/App';
 import { handleSettingsLayout } from 'src/actions/index';
 
 const mapStateToProps = (state) => ({
@@ -13,4 +13,4 @@ const mapDispatchToProps = (dispatch) => ({
   },
 });
 
-export default connect(mapStateToProps, mapDispatchToProps)(Settings);
+export default connect(mapStateToProps, mapDispatchToProps)(App);
