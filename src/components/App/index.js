@@ -3,7 +3,7 @@ import React from 'react';
 
 import ChooseMode from 'src/components/ChooseMode';
 import Timer from 'src/components/Timer';
-import Settings from 'src/components/Settings';
+import Settings from 'src/container/Settings';
 
 // == Import
 import 'src/styles/index.scss';

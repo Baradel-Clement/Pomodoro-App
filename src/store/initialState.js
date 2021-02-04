@@ -8,5 +8,5 @@ export default {
     shortBreak: 5.00,
     longBreak: 15.00,
   },
-  settingsMode: false,
+  settingsLayout: false,
 };

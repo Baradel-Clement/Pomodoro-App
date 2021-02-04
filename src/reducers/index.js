@@ -1,15 +1,13 @@
 import initialState from 'src/store/initialState';
+import { HANDLE_SETTINGS_LAYOUT } from 'src/actions';
 
 export default (state = initialState, action) => {
   switch (action.type) {
-    /* case UPDATE_SETTINGS_FIELD:
+    case HANDLE_SETTINGS_LAYOUT:
       return {
         ...state,
-        settings: {
-          ...state.settings,
-          [action.fieldName]: action.newValue,
-        },
-      }; */
+        settingsLayout: !state.settingsLayout,
+      };
     default:
       return { ...state };
   }
